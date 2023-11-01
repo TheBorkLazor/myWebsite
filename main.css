@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#andrewWebsite {
+  background-color: rgb(241, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  border: 5px;
+  border-style: solid;
+}
+
+#journal {
+  background-color: rgb(241, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  border: 5px;
+  border-style: solid;
+}
+
+.flexContainer {
+  background-color: rgb(241, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 5px;
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+#aboutMe {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border: 3px;
+  border-style: solid;
+}
