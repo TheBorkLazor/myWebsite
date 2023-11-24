@@ -1,0 +1,34 @@
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 20px;
+}
+
+h2 {
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Add some padding and border to create a card-like effect for each day */
+h2,
+p {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Add spacing between days */
+h2:first-child {
+  margin-top: 0;
+}
+
+h2:last-child {
+  margin-bottom: 0;
+}
